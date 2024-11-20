@@ -1,6 +1,6 @@
 <?
 $sSectionName = "Мои объявления";
-$arDirProperties = Array(
+$arDirProperties = array(
 
 );
 ?>
