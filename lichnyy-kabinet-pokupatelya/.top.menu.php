@@ -27,6 +27,13 @@ $aMenuLinks = Array(
 		Array(), 
 		Array(), 
 		"" 
+	),
+	Array(
+		"Главная страница", 
+		"/index.php", 
+		Array(), 
+		Array(), 
+		"" 
 	)
 );
 ?>

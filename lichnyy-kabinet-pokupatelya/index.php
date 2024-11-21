@@ -12,24 +12,13 @@ $APPLICATION->SetTitle("Личный кабинет покупателя");
 		"USER_PROPERTY_NAME" => ""
 	)
 );?><?$APPLICATION->IncludeComponent(
-	"bitrix:sender.subscribe",
+	"bitrix:subscribe.form",
 	"",
 	Array(
-		"AJAX_MODE" => "N",
-		"AJAX_OPTION_ADDITIONAL" => "",
-		"AJAX_OPTION_HISTORY" => "N",
-		"AJAX_OPTION_JUMP" => "N",
-		"AJAX_OPTION_STYLE" => "Y",
 		"CACHE_TIME" => "3600",
 		"CACHE_TYPE" => "A",
-		"CONFIRMATION" => "Y",
-		"HIDE_MAILINGS" => "N",
-		"SET_TITLE" => "N",
+		"PAGE" => "#SITE_DIR#about/subscr_edit.php",
 		"SHOW_HIDDEN" => "N",
-		"USER_CONSENT" => "Y",
-		"USER_CONSENT_ID" => "0",
-		"USER_CONSENT_IS_CHECKED" => "Y",
-		"USER_CONSENT_IS_LOADED" => "N",
 		"USE_PERSONALIZATION" => "Y"
 	)
 );?><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

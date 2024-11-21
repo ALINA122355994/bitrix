@@ -7,7 +7,7 @@ $APPLICATION->SetTitle("Избранное");
 	array(
 		"ACTIVE_DATE_FORMAT" => "d.m.Y",
 		"ADD_SECTIONS_CHAIN" => "Y",
-		"AJAX_MODE" => "Y",
+		"AJAX_MODE" => "N",
 		"AJAX_OPTION_ADDITIONAL" => "",
 		"AJAX_OPTION_HISTORY" => "N",
 		"AJAX_OPTION_JUMP" => "N",
@@ -17,7 +17,7 @@ $APPLICATION->SetTitle("Избранное");
 		"CACHE_TIME" => "36000000",
 		"CACHE_TYPE" => "A",
 		"CHECK_DATES" => "Y",
-		"DETAIL_URL" => "/lichnyy-kabinet-pokupatelya/izbrannoe",
+		"DETAIL_URL" => "/obyavleniya//#CODE#/",
 		"DISPLAY_BOTTOM_PAGER" => "Y",
 		"DISPLAY_DATE" => "Y",
 		"DISPLAY_NAME" => "Y",
@@ -65,4 +65,14 @@ $APPLICATION->SetTitle("Избранное");
 		"COMPONENT_TEMPLATE" => ".default"
 	),
 	false
+);?><?$APPLICATION->IncludeComponent(
+	"bitrix:subscribe.form",
+	"",
+	Array(
+		"CACHE_TIME" => "3600",
+		"CACHE_TYPE" => "A",
+		"PAGE" => "#SITE_DIR#about/subscr_edit.php",
+		"SHOW_HIDDEN" => "N",
+		"USE_PERSONALIZATION" => "Y"
+	)
 );?><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

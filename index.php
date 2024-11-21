@@ -2,6 +2,38 @@
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Мебельная компания");
 ?><?$APPLICATION->IncludeComponent(
+	"bitrix:news.line", 
+	".default", 
+	array(
+		"ACTIVE_DATE_FORMAT" => "d.m.Y",
+		"CACHE_GROUPS" => "Y",
+		"CACHE_TIME" => "300",
+		"CACHE_TYPE" => "A",
+		"DETAIL_URL" => "/obyavleniya//#CODE#/",
+		"FIELD_CODE" => array(
+			0 => "",
+			1 => "",
+		),
+		"IBLOCKS" => array(
+		),
+		"IBLOCK_TYPE" => "advertisement",
+		"NEWS_COUNT" => "9",
+		"SORT_BY1" => "ACTIVE_FROM",
+		"SORT_BY2" => "SORT",
+		"SORT_ORDER1" => "DESC",
+		"SORT_ORDER2" => "ASC",
+		"COMPONENT_TEMPLATE" => ".default"
+	),
+	false
+);?><?$APPLICATION->IncludeComponent(
+	"bitrix:main.include",
+	"",
+	Array(
+		"AREA_FILE_SHOW" => "page",
+		"AREA_FILE_SUFFIX" => "inc",
+		"EDIT_TEMPLATE" => ""
+	)
+);?><?$APPLICATION->IncludeComponent(
 	"bitrix:news.list",
 	".default",
 	Array(
@@ -18,7 +50,7 @@ $APPLICATION->SetTitle("Мебельная компания");
 		"CACHE_TYPE" => "A",
 		"CHECK_DATES" => "N",
 		"COMPONENT_TEMPLATE" => ".default",
-		"DETAIL_URL" => "/servisy/novosti",
+		"DETAIL_URL" => "/servisy/novosti/#CODE#/",
 		"DISPLAY_BOTTOM_PAGER" => "Y",
 		"DISPLAY_DATE" => "Y",
 		"DISPLAY_NAME" => "Y",
@@ -34,7 +66,7 @@ $APPLICATION->SetTitle("Мебельная компания");
 		"INCLUDE_IBLOCK_INTO_CHAIN" => "Y",
 		"INCLUDE_SUBSECTIONS" => "Y",
 		"MESSAGE_404" => "",
-		"NEWS_COUNT" => "20",
+		"NEWS_COUNT" => "9",
 		"PAGER_BASE_LINK_ENABLE" => "N",
 		"PAGER_DESC_NUMBERING" => "N",
 		"PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",
