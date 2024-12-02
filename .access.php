@@ -15,7 +15,6 @@ $PERM["bitrix"]["*"]="D";
 $PERM["novosti.php"]["10"]="W";
 $PERM["kontakty.php"]["10"]="W";
 $PERM["index.php"]["10"]="W";
-$PERM[".top.menu.php"]["10"]="W";
 $PERM[".left.menu.php"]["10"]="W";
 $PERM[".bottom.menu.php"]["10"]="W";
 $PERM[".access.php"]["10"]="W";

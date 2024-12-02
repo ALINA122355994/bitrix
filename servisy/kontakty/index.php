@@ -5,8 +5,9 @@ $APPLICATION->SetTitle("Контакты");
 	"bitrix:main.include",
 	"",
 	Array(
-		"AREA_FILE_SHOW" => "page",
+		"AREA_FILE_SHOW" => "file",
 		"AREA_FILE_SUFFIX" => "inc",
-		"EDIT_TEMPLATE" => ""
+		"EDIT_TEMPLATE" => "",
+		"PATH" => "/servisy/kontakty/contacts.php"
 	)
 );?><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

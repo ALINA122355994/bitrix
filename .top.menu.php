@@ -1,7 +1,7 @@
 <?
 $aMenuLinks = Array(
 	Array(
-		"Главная страница", 
+		"Главное меню", 
 		"/index.php", 
 		Array(), 
 		Array(), 
@@ -22,18 +22,18 @@ $aMenuLinks = Array(
 		"" 
 	),
 	Array(
-		"ЛК продавца", 
-		"/lk-prodavtsa/", 
-		Array(), 
-		Array(), 
-		"CSite::InGroup(array(1,9))" 
-	),
-	Array(
 		"ЛК покупателя", 
 		"/lichnyy-kabinet-pokupatelya/", 
 		Array(), 
 		Array(), 
-		"CSite::InGroup(array(1,8))" 
+		"" 
+	),
+	Array(
+		"ЛК продавца", 
+		"/lk-prodavtsa/", 
+		Array(), 
+		Array(), 
+		"" 
 	)
 );
 ?>
