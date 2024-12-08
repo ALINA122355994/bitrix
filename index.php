@@ -1,9 +1,8 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetTitle("Мебельная компания");
+$APPLICATION->SetTitle("Недвижимость");
 ?><br>
-<?$GLOBALS['arrFilter'] = array('PROPERTY_PRIORITY_DEAL_VALUE' => 'Да');?>
- <?$APPLICATION->IncludeComponent(
+ <?$GLOBALS['arrFilter'] = array('PROPERTY_PRIORITY_DEAL_VALUE' => 'Да');?> <?$APPLICATION->IncludeComponent(
 	"bitrix:news.list",
 	"slaider",
 	Array(
@@ -61,7 +60,6 @@ $APPLICATION->SetTitle("Мебельная компания");
 		"STRICT_SECTION_CHECK" => "N"
 	)
 );?>
-
 <div class="py-5">
 	<div class="container">
 		<div class="row">
@@ -74,7 +72,7 @@ $APPLICATION->SetTitle("Мебельная компания");
 		"AREA_FILE_SHOW" => "file",
 		"AREA_FILE_SUFFIX" => "inc",
 		"EDIT_TEMPLATE" => "",
-		"PATH" => "/local/components/blog_one.php"
+		"PATH" => "/include/blog_one.php"
 	)
 );?>
 				</div>
@@ -88,7 +86,7 @@ $APPLICATION->SetTitle("Мебельная компания");
 		"AREA_FILE_SHOW" => "file",
 		"AREA_FILE_SUFFIX" => "inc",
 		"EDIT_TEMPLATE" => "",
-		"PATH" => "/local/components/blog_two.php"
+		"PATH" => "/include/blog_two.php"
 	)
 );?>
 				</div>
@@ -102,7 +100,7 @@ $APPLICATION->SetTitle("Мебельная компания");
 		"AREA_FILE_SHOW" => "file",
 		"AREA_FILE_SUFFIX" => "inc",
 		"EDIT_TEMPLATE" => "",
-		"PATH" => "/local/components/blog_three.php"
+		"PATH" => "/include/blog_three.php"
 	)
 );?>
 				</div>
@@ -125,12 +123,12 @@ $APPLICATION->SetTitle("Мебельная компания");
 		"CACHE_TIME" => "172800",
 		"CACHE_TYPE" => "A",
 		"COMPONENT_TEMPLATE" => "New_Properties_You",
-		"DETAIL_URL" => "",
-		"FIELD_CODE" => array(0=>"PREVIEW_TEXT",1=>"PREVIEW_PICTURE",2=>"DETAIL_PICTURE",3=>"PROPERTY_PRICE",4=>"PROPERTY_NUMBER_BEDROOMS",5=>"PROPERTY_NUMBER_BATHROOMS",6=>"PROPERTY_TOTAL_AREA",7=>"PROPERTY_PRESENCE_GARAGE",8=>"PROPERTY_IMAGE_GALLERY",9=>"",),
+		"DETAIL_URL" => "/#SITE_DIR#/news/#ELEMENT_CODE#",
+		"FIELD_CODE" => array(0=>"PREVIEW_TEXT",1=>"PREVIEW_PICTURE",2=>"DETAIL_TEXT",3=>"DETAIL_PICTURE",4=>"PROPERTY_PRICE",5=>"PROPERTY_NUMBER_BEDROOMS",6=>"PROPERTY_NUMBER_BATHROOMS",7=>"PROPERTY_TOTAL_AREA",8=>"PROPERTY_PRESENCE_GARAGE",9=>"PROPERTY_IMAGE_GALLERY",10=>"",),
 		"IBLOCKS" => array(0=>"5",),
 		"IBLOCK_TYPE" => "advertisement",
 		"NEWS_COUNT" => "9",
-		"SORT_BY1" => "TIMESTAMP_X",
+		"SORT_BY1" => "SORT",
 		"SORT_BY2" => "SORT",
 		"SORT_ORDER1" => "DESC",
 		"SORT_ORDER2" => "ASC"
@@ -139,11 +137,8 @@ $APPLICATION->SetTitle("Мебельная компания");
 				</div>
 			</div>
 		</div>
-		
-				</div>
- 
-			</div>
-		
+	</div>
+</div>
  <?$APPLICATION->IncludeComponent(
 	"bitrix:news.line",
 	"Our_Services",
@@ -163,10 +158,7 @@ $APPLICATION->SetTitle("Мебельная компания");
 		"SORT_ORDER1" => "DESC",
 		"SORT_ORDER2" => "ASC"
 	)
-);?>
-
-
-<?$APPLICATION->IncludeComponent(
+);?> <?$APPLICATION->IncludeComponent(
 	"bitrix:news.line",
 	"Footer_News",
 	Array(
@@ -185,49 +177,3 @@ $APPLICATION->SetTitle("Мебельная компания");
 		"SORT_ORDER2" => "ASC"
 	)
 );?> <br><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
-<div class="site-section bg-light">
-	
-    <div class="container">
-      <div class="row justify-content-center mb-5">
-        <div class="col-md-7 text-center">
-			
-          <div class="site-section-title">
-			
-            <h2>Our Blog</h2>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6 col-lg-4 mb-5" data-aos="fade-up" data-aos-delay="100">
-          <a href="#"><img src="images/img_4.jpg" alt="Image" class="img-fluid"></a>
-          <div class="p-4 bg-white">
-            <span class="d-block text-secondary small text-uppercase">Jan 20th, 2019</span>
-            <h2 class="h5 text-black mb-3"><a href="#">When To Sell &amp; How Much To Sell?</a></h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias enim, ipsa exercitationem veniam quae
-              sunt.</p>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4 mb-5" data-aos="fade-up" data-aos-delay="200">
-          <a href="#"><img src="images/img_2.jpg" alt="Image" class="img-fluid"></a>
-          <div class="p-4 bg-white">
-            <span class="d-block text-secondary small text-uppercase">Jan 20th, 2019</span>
-            <h2 class="h5 text-black mb-3"><a href="#">When To Sell &amp; How Much To Sell?</a></h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias enim, ipsa exercitationem veniam quae
-              sunt.</p>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4 mb-5" data-aos="fade-up" data-aos-delay="300">
-          <a href="#"><img src="images/img_3.jpg" alt="Image" class="img-fluid"></a>
-          <div class="p-4 bg-white">
-            <span class="d-block text-secondary small text-uppercase">Jan 20th, 2019</span>
-            <h2 class="h5 text-black mb-3"><a href="#">When To Sell &amp; How Much To Sell?</a></h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias enim, ipsa exercitationem veniam quae
-              sunt.</p>
-          </div>
-        </div>
-
-      </div>
-
-    </div>
-  </div>
- 

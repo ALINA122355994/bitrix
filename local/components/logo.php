@@ -1,1 +1,1 @@
-HOMESPACE
+HOMESPACE<span class="text-danger">.</span>

@@ -16,7 +16,7 @@ $aMenuLinks = Array(
 	),
 	Array(
 		"Объявления", 
-		"/obyavleniya/", 
+		"/obyavleniya/index.php", 
 		Array(), 
 		Array(), 
 		"" 
@@ -31,6 +31,13 @@ $aMenuLinks = Array(
 	Array(
 		"ЛК продавца", 
 		"/lk-prodavtsa/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"новости.мс", 
+		"/novosti-ms1.php", 
 		Array(), 
 		Array(), 
 		"" 
