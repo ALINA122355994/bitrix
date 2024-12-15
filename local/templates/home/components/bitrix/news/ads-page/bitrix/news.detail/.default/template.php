@@ -11,9 +11,9 @@
 /** @var string $componentPath */
 /** @var CBitrixComponent $component */
 $this->setFrameMode(true);
-// echo '<pre>';
-//   print_r($arResult);
-//   echo '</pre>';
+
+
+
 ?>
   
     
@@ -35,14 +35,22 @@ $this->setFrameMode(true);
         <div class="row">
           <div class="col-lg-8" style="margin-top: -150px;">
             <div class="mb-5">
+            <?if($arResult['DISPLAY_PROPERTIES']['IMAGE_GALLERY']['VALUE']):?>
               <div class="slide-one-item home-slider owl-carousel">
-               
-                <div><img src="<?=$arResult['DISPLAY_PROPERTIES']['IMAGE_GALLERY']['FILE_VALUE']['0']['SRC']?>" alt="Image" class="img-fluid"></div>
-                <div><img src="<?=$arResult['DISPLAY_PROPERTIES']['IMAGE_GALLERY']['FILE_VALUE']['1']['SRC']?>" alt="Image" class="img-fluid"></div>
-                <div><img src="<?=$arResult['DISPLAY_PROPERTIES']['IMAGE_GALLERY']['FILE_VALUE']['2']['SRC']?>" alt="Image" class="img-fluid"></div>
+                <?if(count($arResult['DISPLAY_PROPERTIES']['IMAGE_GALLERY']['VALUE'])==1):?>
+                  <div> <img src="<?=$arResult['DISPLAY_PROPERTIES']['IMAGE_GALLERY']['FILE_VALUE']['SRC']?>"></div>
+                
+                  <?else:?>
+                    <?foreach($arResult['DISPLAY_PROPERTIES']['IMAGE_GALLERY']['FILE_VALUE'] as $arItem):?>   
+                <div><img src="<?=$arItem['SRC']?>" alt="Image" class="img-fluid"></div>
+                <?endforeach;?>
+                <?endif?> 
+             
                 
               </div>
+              <?endif?> 
             </div>
+
             <div class="bg-white">
               <div class="row mb-5">
                 <div class="col-md-6">
@@ -82,52 +90,63 @@ $this->setFrameMode(true);
               </div>
               <h2 class="h4 text-black"> <?=$arResult["NAME"]?></h2>
               <?=$arResult["DETAIL_TEXT"]?>
-
-              <div class="row mt-5">
+              
+              
+              
+              <?if($arResult['DISPLAY_PROPERTIES']['IMAGE_GALLERY']['VALUE']):?>
+             
+             
+                <div class="row mt-5">
+              
                 <div class="col-12">
+                  
                   <h2 class="h4 text-black mb-3"><?=$arResult["PROPERTIES"]["IMAGE_GALLERY"]["NAME"]?></h2>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
-                  <a href="<?=$arResult['DISPLAY_PROPERTIES']['IMAGE_GALLERY']['FILE_VALUE']['0']['SRC']?>" class="image-popup gal-item"><img src="<?=$arResult['DISPLAY_PROPERTIES']['IMAGE_GALLERY']['FILE_VALUE']['0']['SRC']?>" alt="Image" class="img-fluid"></a>
+
+                            
+                              <?if(count($arResult['DISPLAY_PROPERTIES']['IMAGE_GALLERY']['VALUE'])==1):?>
+                                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                  <a href="<?=$arResult['DISPLAY_PROPERTIES']['IMAGE_GALLERY']['FILE_VALUE']['SRC']?>" class="image-popup gal-item"><img src="<?=$arResult['DISPLAY_PROPERTIES']['IMAGE_GALLERY']['FILE_VALUE']['SRC']?>" alt="Image" class="img-fluid"></a>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
-                  <a href="<?=$arResult['DISPLAY_PROPERTIES']['IMAGE_GALLERY']['FILE_VALUE']['1']['SRC']?>" class="image-popup gal-item"><img src="<?=$arResult['DISPLAY_PROPERTIES']['IMAGE_GALLERY']['FILE_VALUE']['1']['SRC']?>" alt="Image" class="img-fluid"></a>
+                
+                  <?else:?>
+                    <?foreach($arResult['DISPLAY_PROPERTIES']['IMAGE_GALLERY']['FILE_VALUE'] as $arItem):?>   
+                      <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                  <a href="<?=$arItem['SRC']?>" class="image-popup gal-item"><img src="<?=$arItem['SRC']?>" alt="Image" class="img-fluid"></a>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
-                  <a href="<?=$arResult['DISPLAY_PROPERTIES']['IMAGE_GALLERY']['FILE_VALUE']['2']['SRC']?>" class="image-popup gal-item"><img src="<?=$arResult['DISPLAY_PROPERTIES']['IMAGE_GALLERY']['FILE_VALUE']['2']['SRC']?>" alt="Image" class="img-fluid"></a>
+                <?endforeach;?>
+                <?endif?> 
+            
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
-                  <a href="<?=$arResult['DISPLAY_PROPERTIES']['IMAGE_GALLERY']['FILE_VALUE']['3']['SRC']?>" class="image-popup gal-item"><img src="<?=$arResult['DISPLAY_PROPERTIES']['IMAGE_GALLERY']['FILE_VALUE']['3']['SRC']?>" alt="Image" class="img-fluid"></a>
+                <?endif?> 
+                <div class="row mt-5">
+                 <div class="col-12">
+                  <h2 class="h4 text-black mb-3"><?=$arResult["PROPERTIES"]["ADDITIONAL_MATERIALS"]["NAME"]?></h2>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
-                  <a href="<?=$arResult['DISPLAY_PROPERTIES']['IMAGE_GALLERY']['FILE_VALUE']['4']['SRC']?>" class="image-popup gal-item"><img src="<?=$arResult['DISPLAY_PROPERTIES']['IMAGE_GALLERY']['FILE_VALUE']['4']['SRC']?>" alt="Image" class="img-fluid"></a>
+   <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+    <?if($arResult['DISPLAY_PROPERTIES']["ADDITIONAL_MATERIALS"]['VALUE']):?>
+             
+                <?if(count($arResult['DISPLAY_PROPERTIES']["ADDITIONAL_MATERIALS"]['VALUE'])==1):?>
+                  <div><a href="<?=$arItem['SRC']?>" class="image-popup gal-item"><img src="<?=$arResult["DISPLAY_PROPERTIES"]["ADDITIONAL_MATERIALS"]["FILE_VALUE"]["SRC"]?>"class="img-fluid"></div></a>
+                
+                  <?else:?>
+                  <?foreach($arResult['DISPLAY_PROPERTIES']['ADDITIONAL_MATERIALS']['FILE_VALUE'] as $arItem):?>
+                    </br><div> <a href="<?=$arItem['SRC']?>" class="image-popup gal-item"><img src="<?=$arItem['SRC']?>" alt="Image" class="img-fluid"></a></div>
+                <?endforeach;?>
+                <?endif?> 
+                <?endif?> 
+
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
-                  <a href="<?=$arResult['DISPLAY_PROPERTIES']['IMAGE_GALLERY']['FILE_VALUE']['5']['SRC']?>" class="image-popup gal-item"><img src="<?=$arResult['DISPLAY_PROPERTIES']['IMAGE_GALLERY']['FILE_VALUE']['5']['SRC']?>" alt="Image" class="img-fluid"></a>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
-                  <a href="<?=$arResult['DISPLAY_PROPERTIES']['IMAGE_GALLERY']['FILE_VALUE']['6']['SRC']?>" class="image-popup gal-item"><img src="<?=$arResult['DISPLAY_PROPERTIES']['IMAGE_GALLERY']['FILE_VALUE']['6']['SRC']?>" alt="Image" class="img-fluid"></a>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
-                  <a href="<?=$arResult['DISPLAY_PROPERTIES']['IMAGE_GALLERY']['FILE_VALUE']['7']['SRC']?>" class="image-popup gal-item"><img src="<?=$arResult['DISPLAY_PROPERTIES']['IMAGE_GALLERY']['FILE_VALUE']['7']['SRC']?>" alt="Image" class="img-fluid"></a>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
-                  <a href="<?=$arResult['DISPLAY_PROPERTIES']['IMAGE_GALLERY']['FILE_VALUE']['8']['SRC']?>" class="image-popup gal-item"><img src="<?=$arResult['DISPLAY_PROPERTIES']['IMAGE_GALLERY']['FILE_VALUE']['8']['SRC']?>" alt="Image" class="img-fluid"></a>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
-                  <a href="<?=$arResult['DISPLAY_PROPERTIES']['IMAGE_GALLERY']['FILE_VALUE']['9']['SRC']?>" class="image-popup gal-item"><img src="<?=$arResult['DISPLAY_PROPERTIES']['IMAGE_GALLERY']['FILE_VALUE']['9']['SRC']?>" alt="Image" class="img-fluid"></a>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
-                  <a href="<?=$arResult['DISPLAY_PROPERTIES']['IMAGE_GALLERY']['FILE_VALUE']['10']['SRC']?>" class="image-popup gal-item"><img src="<?=$arResult['DISPLAY_PROPERTIES']['IMAGE_GALLERY']['FILE_VALUE']['10']['SRC']?>" alt="Image" class="img-fluid"></a>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
-                  <a href="<?=$arResult['DISPLAY_PROPERTIES']['IMAGE_GALLERY']['FILE_VALUE']['11']['SRC']?>" class="image-popup gal-item"><img src="<?=$arResult['DISPLAY_PROPERTIES']['IMAGE_GALLERY']['FILE_VALUE']['11']['SRC']?>" alt="Image" class="img-fluid"></a>
-                </div>
-              </div>
-              <?=$arResult["PROPERTIES"]["ADDITIONAL_MATERIALS"]["NAME"]?>
-    <br/>
-   <?=$arResult["PROPERTIES"]["LINKS_EXTERNAL_RESOURCES"]["NAME"]?><br/>
-   <a href="https://dzen.ru/">Дзен</a>
+      <br/>
+    
+     
+     <?=$arResult["DISPLAY_PROPERTIES"]["LINKS_EXTERNAL_RESOURCES"]["NAME"]?><br/>
+     <?=$arResult['DISPLAY_PROPERTIES']['LINKS_EXTERNAL_RESOURCES']['DISPLAY_VALUE']?>
+     
+     
+   
+     
             </div>
           </div>
 

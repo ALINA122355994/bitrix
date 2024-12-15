@@ -36,48 +36,53 @@ IncludeTemplateLangFile(__FILE__);
  </head>
 
 <body>
-<div id="panel"><?$APPLICATION->ShowPanel();?></div>
+<div id="panel">
+	<?$APPLICATION->ShowPanel();?></div>
 
-  <div class="site-loader"></div>
+	<div class="site-loader"></div>
 
-  <div class="site-wrap">
+<div class="site-wrap">
 
-    <div class="site-mobile-menu">
-      <div class="site-mobile-menu-header">
-        <div class="site-mobile-menu-close mt-3">
-          <span class="icon-close2 js-menu-toggle"></span>
-        </div>
-      </div>
-      <div class="site-mobile-menu-body"></div>
-    </div> <!-- .site-mobile-menu -->
+  <div class="site-mobile-menu">
+	<div class="site-mobile-menu-header">
+	  <div class="site-mobile-menu-close mt-3">
+		<span class="icon-close2 js-menu-toggle"></span>
+	  </div>
+	</div>
+	<div class="site-mobile-menu-body"></div>
+  </div> <!-- .site-mobile-menu -->
 
-    <div class="border-bottom bg-white top-bar">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-6 col-md-6">
-            <p class="mb-0">
+  <div class="border-bottom bg-white top-bar">
+	<div class="container">
+	  <div class="row align-items-center">
+		<div class="col-6 col-md-6">
+		  <p class="mb-0">
               
             <a href="#" class="mr-3"><span class="text-black fl-bigmug-line-phone351"></span> <span
-            class="d-none d-md-inline-block ml-2"><?$APPLICATION->IncludeComponent(
-	"bitrix:main.include",
-	"",
-	Array(
+                  class="d-none d-md-inline-block ml-2"><?$APPLICATION->IncludeComponent(
+	"bitrix:main.include", 
+	".default", 
+	array(
 		"AREA_FILE_SHOW" => "file",
 		"AREA_FILE_SUFFIX" => "inc",
 		"EDIT_TEMPLATE" => "",
-		"PATH" => "/local/components/phone.php"
-	)
-);?></span></a>
+		"PATH" => "/include/phone.php",
+		"COMPONENT_TEMPLATE" => ".default"
+	),
+	false
+);?></span></a></br>
                
                <a href="#"><span class="text-black fl-bigmug-line-email64"></span> <span
-               class="d-none d-md-inline-block ml-2">  <?$APPLICATION->IncludeComponent(
+               class="d-none d-md-inline-block ml-2"> 
+			  
+			   <?$APPLICATION->IncludeComponent(
 	"bitrix:main.include",
 	"",
 	Array(
 		"AREA_FILE_SHOW" => "file",
 		"AREA_FILE_SUFFIX" => "inc",
 		"EDIT_TEMPLATE" => "",
-		"PATH" => "/local/components/email.php"
+		"PATH" => "/include/email.php"
 	)
 );?> </span></a>
             </p>
@@ -85,35 +90,43 @@ IncludeTemplateLangFile(__FILE__);
           <div class="col-6 col-md-6 text-right">
 
           <?$APPLICATION->IncludeComponent(
-	"bitrix:main.include",
-	"",
-	Array(
+	"bitrix:main.include", 
+	".default", 
+	array(
 		"AREA_FILE_SHOW" => "file",
 		"AREA_FILE_SUFFIX" => "inc",
 		"EDIT_TEMPLATE" => "",
-		"PATH" => "/local/components/mesenger.php"
-	)
+		"PATH" => "/include/mesenger.php",
+		"COMPONENT_TEMPLATE" => ".default"
+	),
+	false
 );?> 
           </div>
         </div>
       </div>
 
     </div>
+	
     <div class="site-navbar">
       <div class="container py-1">
         <div class="row align-items-center">
           <div class="col-8 col-md-8 col-lg-4">
-            <h1 class=""><a href="index.html" class="h5 text-uppercase text-black"><strong>
-              <?$APPLICATION->IncludeComponent(
-	"bitrix:main.include",
-	"",
-	Array(
+            <h1 class=""><a href="/index.php" class="h5 text-uppercase text-black"><strong>
+             
+			 <?$APPLICATION->IncludeComponent(
+	"bitrix:main.include", 
+	".default", 
+	array(
 		"AREA_FILE_SHOW" => "file",
 		"AREA_FILE_SUFFIX" => "inc",
 		"EDIT_TEMPLATE" => "",
-		"PATH" => "/local/components/logo.php"
-	)
-);?></strong></a>  </h1>
+		"PATH" => "/include/logo.php",
+		"COMPONENT_TEMPLATE" => ".default"
+	),
+	false
+);?>
+
+</strong></a>  </h1>
           </div>
           <?$APPLICATION->IncludeComponent(
 	"bitrix:menu", 
@@ -135,25 +148,29 @@ IncludeTemplateLangFile(__FILE__);
 	),
 	false
 );?>
+
+</div>
+      </div>
+    </div>
+  </div>
+
 <?
 $current_link = $APPLICATION->GetCurPage();
 if ($current_link !== "/"):
 
 $APPLICATION->IncludeComponent(
-	"bitrix:breadcrumb",
-	"",
-	Array(
+	"bitrix:breadcrumb", 
+	"navi", 
+	array(
 		"PATH" => "",
 		"SITE_ID" => "s1",
-		"START_FROM" => "0"
-  ),
-false
+		"START_FROM" => "0",
+		"COMPONENT_TEMPLATE" => "navi"
+	),
+	false
 );?>
 <?endif?>
-        </div>
-      </div>
-    </div>
-  </div>
+
 
 
 

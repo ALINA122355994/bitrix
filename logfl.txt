@@ -1,0 +1,1027 @@
+Array
+(
+    [0] => Array
+        (
+            [ID] => 76
+            [~ID] => 76
+            [IBLOCK_ID] => 8
+            [~IBLOCK_ID] => 8
+            [IBLOCK_SECTION_ID] => 
+            [~IBLOCK_SECTION_ID] => 
+            [NAME] =>  Агенты по недвижимости
+            [~NAME] =>  Агенты по недвижимости
+            [ACTIVE_FROM_X] => 2024-12-01 00:00:00
+            [~ACTIVE_FROM_X] => 2024-12-01 00:00:00
+            [ACTIVE_FROM] => 01.12.2024
+            [~ACTIVE_FROM] => 01.12.2024
+            [TIMESTAMP_X] => 14.12.2024 19:09:26
+            [~TIMESTAMP_X] => 14.12.2024 19:09:26
+            [DETAIL_PAGE_URL] => /servisy/novosti/agenty-po-nedvizhimosti/
+            [~DETAIL_PAGE_URL] => /servisy/novosti/agenty-po-nedvizhimosti/
+            [LIST_PAGE_URL] => /servisy/novosti/
+            [~LIST_PAGE_URL] => /servisy/novosti/
+            [DETAIL_TEXT] => &lt;b&gt;Авторы изобретения&lt;/b&gt;: Разиньков Егор Михайлович&nbsp;&nbsp;и Мещерякова Анна Анатольевна &lt;/br&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Патент Российской Федерации RU2277566&lt;/br&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;h3&gt;Описание изобретения&lt;/h3&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;Изобретение относится к области получения и применения клеящих составов, используемых в деревообрабатывающей, мебельной и строительной промышленности.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Данная клеевая композиция предназначена только для горячего прессования и имеет в своем составе многокомпонентный отвердитель. Прототипом клеевой композиции является клей, состоящий из карбамидоформальдегидной смолы, сополимера акрилонитрила с N-винилкапролактамом и отвердитель. В качестве отвердителя применяют хлористый аммоний либо акриловую кислоту. &lt;/p&gt;<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;Изобретение решает задачу по получению прочного и водостойкого клеевого соединения.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Это достигается тем, что клеевая композиция, включающая синтетическую смолу и отвердитель, согласно изобретению, дополнительно содержит модификатор, причем в качестве синтетической смолы клеевая композиция включает карбамидомеламиноформальдегидную смолу с отвердителем 2542, в качестве модификатора - карбамидоформальдегидную смолу, а в качестве отвердителя - 10&#37;-ный раствор щавелевой кислоты при следующем соотношении компонентов, мас.ч.:<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/p&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;table cellspacing=&quot;10&quot;&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Карбамидомеламиноформальдегидная смола&lt;/td&gt;&lt;td&gt;64,5-79,2&lt;/td&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;10&#37;-ный Раствор щавелевой кислоты&lt;/td&gt;&lt;td&gt;4,4-20,5&lt;/td&gt;<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt; Отвердитель для карбамидомеламиноформальдегидной &lt;/td&gt;&lt;td&gt;0,6-2,0&lt;/td&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt; смолы 2542&lt;/td&gt;&lt;td&gt;13,0-15,8&lt;/td&gt;<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/table&gt;<br />
+
+            [~DETAIL_TEXT] => <b>Авторы изобретения</b>: Разиньков Егор Михайлович  и Мещерякова Анна Анатольевна </br>
+              Патент Российской Федерации RU2277566</br>
+              <h3>Описание изобретения</h3>
+              <p>Изобретение относится к области получения и применения клеящих составов, используемых в деревообрабатывающей, мебельной и строительной промышленности.
+              Данная клеевая композиция предназначена только для горячего прессования и имеет в своем составе многокомпонентный отвердитель. Прототипом клеевой композиции является клей, состоящий из карбамидоформальдегидной смолы, сополимера акрилонитрила с N-винилкапролактамом и отвердитель. В качестве отвердителя применяют хлористый аммоний либо акриловую кислоту. </p>
+
+              <p>Изобретение решает задачу по получению прочного и водостойкого клеевого соединения.
+              Это достигается тем, что клеевая композиция, включающая синтетическую смолу и отвердитель, согласно изобретению, дополнительно содержит модификатор, причем в качестве синтетической смолы клеевая композиция включает карбамидомеламиноформальдегидную смолу с отвердителем 2542, в качестве модификатора - карбамидоформальдегидную смолу, а в качестве отвердителя - 10%-ный раствор щавелевой кислоты при следующем соотношении компонентов, мас.ч.:
+              </p>
+              <table cellspacing="10">
+              <tr>
+              <td>Карбамидомеламиноформальдегидная смола</td><td>64,5-79,2</td>
+              </tr>	
+              <tr>
+              <td>10%-ный Раствор щавелевой кислоты</td><td>4,4-20,5</td>
+
+              </tr>
+              <tr>
+              <td> Отвердитель для карбамидомеламиноформальдегидной </td><td>0,6-2,0</td>
+              </tr>
+              <tr>
+              <td> смолы 2542</td><td>13,0-15,8</td>
+
+              </tr>	
+              </table>
+
+            [DETAIL_TEXT_TYPE] => text
+            [~DETAIL_TEXT_TYPE] => text
+            [PREVIEW_TEXT] => &lt;b&gt;Авторы изобретения&lt;/b&gt;: Разиньков Егор Михайлович&nbsp;&nbsp;и Мещерякова Анна Анатольевна &lt;/br&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Патент Российской Федерации RU2277566&lt;/br&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;h3&gt;Описание изобретения&lt;/h3&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;Изобретение относится к области получения и применения клеящих составов, используемых в деревообрабатывающей, мебельной и строительной промышленности.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Данная клеевая композиция предназначена только для горячего прессования и имеет в своем составе многокомпонентный отвердитель. Прототипом клеевой композиции является клей, состоящий из карбамидоформальдегидной смолы, сополимера акрилонитрила с N-винилкапролактамом и отвердитель. В качестве отвердителя применяют хлористый аммоний либо акриловую кислоту. &lt;/p&gt;<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            [~PREVIEW_TEXT] => <b>Авторы изобретения</b>: Разиньков Егор Михайлович  и Мещерякова Анна Анатольевна </br>
+              Патент Российской Федерации RU2277566</br>
+              <h3>Описание изобретения</h3>
+              <p>Изобретение относится к области получения и применения клеящих составов, используемых в деревообрабатывающей, мебельной и строительной промышленности.
+              Данная клеевая композиция предназначена только для горячего прессования и имеет в своем составе многокомпонентный отвердитель. Прототипом клеевой композиции является клей, состоящий из карбамидоформальдегидной смолы, сополимера акрилонитрила с N-винилкапролактамом и отвердитель. В качестве отвердителя применяют хлористый аммоний либо акриловую кислоту. </p>
+
+      
+      
+            [PREVIEW_TEXT_TYPE] => text
+            [~PREVIEW_TEXT_TYPE] => text
+            [PREVIEW_PICTURE] => Array
+                (
+                    [ID] => 158
+                    [TIMESTAMP_X] => 14.12.2024 19:09:26
+                    [MODULE_ID] => iblock
+                    [HEIGHT] => 400
+                    [WIDTH] => 400
+                    [FILE_SIZE] => 28109
+                    [CONTENT_TYPE] => image/jpeg
+                    [SUBDIR] => iblock/b96
+                    [FILE_NAME] => swwjd8dv01c02uiyts6xho3i0v921op4.jpg
+                    [ORIGINAL_NAME] => person_1.jpg
+                    [DESCRIPTION] => 
+                    [HANDLER_ID] => 
+                    [EXTERNAL_ID] => de45bc265d32c0661d29982e550242cf
+                    [VERSION_ORIGINAL_ID] => 
+                    [META] => 
+                    [SRC] => /upload/iblock/b96/swwjd8dv01c02uiyts6xho3i0v921op4.jpg
+                    [UNSAFE_SRC] => /upload/iblock/b96/swwjd8dv01c02uiyts6xho3i0v921op4.jpg
+                    [SAFE_SRC] => /upload/iblock/b96/swwjd8dv01c02uiyts6xho3i0v921op4.jpg
+                    [ALT] =>  Агенты по недвижимости
+                    [TITLE] =>  Агенты по недвижимости
+                )
+
+            [~PREVIEW_PICTURE] => 158
+            [LANG_DIR] => /
+            [~LANG_DIR] => /
+            [CODE] => agenty-po-nedvizhimosti
+            [~CODE] => agenty-po-nedvizhimosti
+            [EXTERNAL_ID] => 76
+            [~EXTERNAL_ID] => 76
+            [IBLOCK_TYPE_ID] => news
+            [~IBLOCK_TYPE_ID] => news
+            [IBLOCK_CODE] => news
+            [~IBLOCK_CODE] => news
+            [IBLOCK_EXTERNAL_ID] => 
+            [~IBLOCK_EXTERNAL_ID] => 
+            [LID] => s1
+            [~LID] => s1
+            [EDIT_LINK] => /bitrix/admin/iblock_element_edit.php?IBLOCK_ID=8&type=news&ID=76&lang=ru&force_catalog=&filter_section=0&bxpublic=Y&from_module=iblock&return_url=%2Fservisy%2Fnovosti%2F%3Fbitrix_include_areas%3DY%26clear_cache%3DY
+            [DELETE_LINK] => /bitrix/admin/iblock_element_admin.php?IBLOCK_ID=8&type=news&lang=ru&action=delete&ID=76&return_url=%2Fservisy%2Fnovosti%2F%3Fbitrix_include_areas%3DY%26clear_cache%3DY
+            [DISPLAY_ACTIVE_FROM] => 01.12.2024
+            [FIELDS] => Array
+                (
+                )
+
+            [PROPERTIES] => Array
+                (
+                    [PHOTOGALLERY] => Array
+                        (
+                            [ID] => 21
+                            [IBLOCK_ID] => 8
+                            [NAME] => PHOTOGALLERY
+                            [ACTIVE] => Y
+                            [SORT] => 100
+                            [CODE] => PHOTOGALLERY
+                            [DEFAULT_VALUE] => 
+                            [PROPERTY_TYPE] => E
+                            [ROW_COUNT] => 1
+                            [COL_COUNT] => 30
+                            [LIST_TYPE] => L
+                            [MULTIPLE] => Y
+                            [XML_ID] => 
+                            [FILE_TYPE] => 
+                            [MULTIPLE_CNT] => 5
+                            [LINK_IBLOCK_ID] => 0
+                            [WITH_DESCRIPTION] => N
+                            [SEARCHABLE] => N
+                            [FILTRABLE] => N
+                            [IS_REQUIRED] => N
+                            [VERSION] => 1
+                            [USER_TYPE] => 
+                            [USER_TYPE_SETTINGS] => Array
+                                (
+                                )
+
+                            [HINT] => 
+                            [~NAME] => PHOTOGALLERY
+                            [~DEFAULT_VALUE] => 
+                            [VALUE_ENUM] => 
+                            [VALUE_XML_ID] => 
+                            [VALUE_SORT] => 
+                            [VALUE] => Array
+                                (
+                                    [0] => 1
+                                )
+
+                            [PROPERTY_VALUE_ID] => Array
+                                (
+                                    [0] => 537
+                                )
+
+                            [DESCRIPTION] => Array
+                                (
+                                    [0] => 
+                                )
+
+                            [~VALUE] => Array
+                                (
+                                    [0] => 1
+                                )
+
+                            [~DESCRIPTION] => Array
+                                (
+                                    [0] => 
+                                )
+
+                        )
+
+                    [LIKE] => Array
+                        (
+                            [ID] => 22
+                            [IBLOCK_ID] => 8
+                            [NAME] => LIKE
+                            [ACTIVE] => Y
+                            [SORT] => 200
+                            [CODE] => LIKE
+                            [DEFAULT_VALUE] => 
+                            [PROPERTY_TYPE] => S
+                            [ROW_COUNT] => 1
+                            [COL_COUNT] => 30
+                            [LIST_TYPE] => L
+                            [MULTIPLE] => Y
+                            [XML_ID] => 
+                            [FILE_TYPE] => 
+                            [MULTIPLE_CNT] => 5
+                            [LINK_IBLOCK_ID] => 0
+                            [WITH_DESCRIPTION] => N
+                            [SEARCHABLE] => N
+                            [FILTRABLE] => N
+                            [IS_REQUIRED] => N
+                            [VERSION] => 1
+                            [USER_TYPE] => UserID
+                            [USER_TYPE_SETTINGS] => 
+                            [HINT] => 
+                            [~NAME] => LIKE
+                            [~DEFAULT_VALUE] => 
+                            [VALUE_ENUM] => 
+                            [VALUE_XML_ID] => 
+                            [VALUE_SORT] => 
+                            [VALUE] => Array
+                                (
+                                    [0] => 3
+                                    [1] => 1
+                                )
+
+                            [PROPERTY_VALUE_ID] => Array
+                                (
+                                    [0] => 538
+                                    [1] => 540
+                                )
+
+                            [DESCRIPTION] => Array
+                                (
+                                    [0] => 
+                                    [1] => 
+                                )
+
+                            [~VALUE] => Array
+                                (
+                                    [0] => 3
+                                    [1] => 1
+                                )
+
+                            [~DESCRIPTION] => Array
+                                (
+                                    [0] => 
+                                    [1] => 
+                                )
+
+                        )
+
+                    [DISLIKE] => Array
+                        (
+                            [ID] => 23
+                            [IBLOCK_ID] => 8
+                            [NAME] => DISLIKE
+                            [ACTIVE] => Y
+                            [SORT] => 200
+                            [CODE] => DISLIKE
+                            [DEFAULT_VALUE] => 
+                            [PROPERTY_TYPE] => S
+                            [ROW_COUNT] => 1
+                            [COL_COUNT] => 30
+                            [LIST_TYPE] => L
+                            [MULTIPLE] => Y
+                            [XML_ID] => 
+                            [FILE_TYPE] => 
+                            [MULTIPLE_CNT] => 5
+                            [LINK_IBLOCK_ID] => 0
+                            [WITH_DESCRIPTION] => N
+                            [SEARCHABLE] => N
+                            [FILTRABLE] => N
+                            [IS_REQUIRED] => N
+                            [VERSION] => 1
+                            [USER_TYPE] => UserID
+                            [USER_TYPE_SETTINGS] => 
+                            [HINT] => 
+                            [~NAME] => DISLIKE
+                            [~DEFAULT_VALUE] => 
+                            [VALUE_ENUM] => 
+                            [VALUE_XML_ID] => 
+                            [VALUE_SORT] => 
+                            [VALUE] => Array
+                                (
+                                    [0] => 1
+                                )
+
+                            [PROPERTY_VALUE_ID] => Array
+                                (
+                                    [0] => 539
+                                )
+
+                            [DESCRIPTION] => Array
+                                (
+                                    [0] => 
+                                )
+
+                            [~VALUE] => Array
+                                (
+                                    [0] => 1
+                                )
+
+                            [~DESCRIPTION] => Array
+                                (
+                                    [0] => 
+                                )
+
+                        )
+
+                )
+
+            [DISPLAY_PROPERTIES] => Array
+                (
+                    [PHOTOGALLERY] => Array
+                        (
+                            [ID] => 21
+                            [IBLOCK_ID] => 8
+                            [NAME] => PHOTOGALLERY
+                            [ACTIVE] => Y
+                            [SORT] => 100
+                            [CODE] => PHOTOGALLERY
+                            [DEFAULT_VALUE] => 
+                            [PROPERTY_TYPE] => E
+                            [ROW_COUNT] => 1
+                            [COL_COUNT] => 30
+                            [LIST_TYPE] => L
+                            [MULTIPLE] => Y
+                            [XML_ID] => 
+                            [FILE_TYPE] => 
+                            [MULTIPLE_CNT] => 5
+                            [LINK_IBLOCK_ID] => 0
+                            [WITH_DESCRIPTION] => N
+                            [SEARCHABLE] => N
+                            [FILTRABLE] => N
+                            [IS_REQUIRED] => N
+                            [VERSION] => 1
+                            [USER_TYPE] => 
+                            [USER_TYPE_SETTINGS] => Array
+                                (
+                                )
+
+                            [HINT] => 
+                            [~NAME] => PHOTOGALLERY
+                            [~DEFAULT_VALUE] => 
+                            [VALUE_ENUM] => 
+                            [VALUE_XML_ID] => 
+                            [VALUE_SORT] => 
+                            [VALUE] => Array
+                                (
+                                    [0] => 1
+                                )
+
+                            [PROPERTY_VALUE_ID] => Array
+                                (
+                                    [0] => 537
+                                )
+
+                            [DESCRIPTION] => Array
+                                (
+                                    [0] => 
+                                )
+
+                            [~VALUE] => Array
+                                (
+                                    [0] => 1
+                                )
+
+                            [~DESCRIPTION] => Array
+                                (
+                                    [0] => 
+                                )
+
+                            [LINK_ELEMENT_VALUE] => Array
+                                (
+                                    [1] => Array
+                                        (
+                                            [ID] => 1
+                                            [~ID] => 1
+                                            [IBLOCK_ID] => 1
+                                            [~IBLOCK_ID] => 1
+                                            [NAME] => Мебельный форум Беларуси
+                                            [~NAME] => Мебельный форум Беларуси
+                                            [DETAIL_PAGE_URL] => /servisy/novosti/Furniture_Forum/
+                                            [~DETAIL_PAGE_URL] => /servisy/novosti/Furniture_Forum/
+                                            [PREVIEW_PICTURE] => 69
+                                            [~PREVIEW_PICTURE] => 69
+                                            [DETAIL_PICTURE] => 
+                                            [~DETAIL_PICTURE] => 
+                                            [SORT] => 500
+                                            [~SORT] => 500
+                                            [LANG_DIR] => /
+                                            [~LANG_DIR] => /
+                                            [CODE] => Furniture_Forum
+                                            [~CODE] => Furniture_Forum
+                                            [EXTERNAL_ID] => 1
+                                            [~EXTERNAL_ID] => 1
+                                            [IBLOCK_SECTION_ID] => 
+                                            [~IBLOCK_SECTION_ID] => 
+                                            [IBLOCK_TYPE_ID] => news
+                                            [~IBLOCK_TYPE_ID] => news
+                                            [IBLOCK_CODE] => furniture_news_s1
+                                            [~IBLOCK_CODE] => furniture_news_s1
+                                            [IBLOCK_EXTERNAL_ID] => furniture_news_s1
+                                            [~IBLOCK_EXTERNAL_ID] => furniture_news_s1
+                                            [LID] => s1
+                                            [~LID] => s1
+                                        )
+
+                                )
+
+                            [DISPLAY_VALUE] => <a href="/servisy/novosti/Furniture_Forum/">Мебельный форум Беларуси</a>
+                        )
+
+                    [DISLIKE] => Array
+                        (
+                            [ID] => 23
+                            [IBLOCK_ID] => 8
+                            [NAME] => DISLIKE
+                            [ACTIVE] => Y
+                            [SORT] => 200
+                            [CODE] => DISLIKE
+                            [DEFAULT_VALUE] => 
+                            [PROPERTY_TYPE] => S
+                            [ROW_COUNT] => 1
+                            [COL_COUNT] => 30
+                            [LIST_TYPE] => L
+                            [MULTIPLE] => Y
+                            [XML_ID] => 
+                            [FILE_TYPE] => 
+                            [MULTIPLE_CNT] => 5
+                            [LINK_IBLOCK_ID] => 0
+                            [WITH_DESCRIPTION] => N
+                            [SEARCHABLE] => N
+                            [FILTRABLE] => N
+                            [IS_REQUIRED] => N
+                            [VERSION] => 1
+                            [USER_TYPE] => UserID
+                            [USER_TYPE_SETTINGS] => 
+                            [HINT] => 
+                            [~NAME] => DISLIKE
+                            [~DEFAULT_VALUE] => 
+                            [VALUE_ENUM] => 
+                            [VALUE_XML_ID] => 
+                            [VALUE_SORT] => 
+                            [VALUE] => Array
+                                (
+                                    [0] => 1
+                                )
+
+                            [PROPERTY_VALUE_ID] => Array
+                                (
+                                    [0] => 539
+                                )
+
+                            [DESCRIPTION] => Array
+                                (
+                                    [0] => 
+                                )
+
+                            [~VALUE] => Array
+                                (
+                                    [0] => 1
+                                )
+
+                            [~DESCRIPTION] => Array
+                                (
+                                    [0] => 
+                                )
+
+                            [DISPLAY_VALUE] => [<a href="/company/personal/user/1/">1</a>] (gaffarova.alina) Алина Гаффарова
+                        )
+
+                    [LIKE] => Array
+                        (
+                            [ID] => 22
+                            [IBLOCK_ID] => 8
+                            [NAME] => LIKE
+                            [ACTIVE] => Y
+                            [SORT] => 200
+                            [CODE] => LIKE
+                            [DEFAULT_VALUE] => 
+                            [PROPERTY_TYPE] => S
+                            [ROW_COUNT] => 1
+                            [COL_COUNT] => 30
+                            [LIST_TYPE] => L
+                            [MULTIPLE] => Y
+                            [XML_ID] => 
+                            [FILE_TYPE] => 
+                            [MULTIPLE_CNT] => 5
+                            [LINK_IBLOCK_ID] => 0
+                            [WITH_DESCRIPTION] => N
+                            [SEARCHABLE] => N
+                            [FILTRABLE] => N
+                            [IS_REQUIRED] => N
+                            [VERSION] => 1
+                            [USER_TYPE] => UserID
+                            [USER_TYPE_SETTINGS] => 
+                            [HINT] => 
+                            [~NAME] => LIKE
+                            [~DEFAULT_VALUE] => 
+                            [VALUE_ENUM] => 
+                            [VALUE_XML_ID] => 
+                            [VALUE_SORT] => 
+                            [VALUE] => Array
+                                (
+                                    [0] => 3
+                                    [1] => 1
+                                )
+
+                            [PROPERTY_VALUE_ID] => Array
+                                (
+                                    [0] => 538
+                                    [1] => 540
+                                )
+
+                            [DESCRIPTION] => Array
+                                (
+                                    [0] => 
+                                    [1] => 
+                                )
+
+                            [~VALUE] => Array
+                                (
+                                    [0] => 3
+                                    [1] => 1
+                                )
+
+                            [~DESCRIPTION] => Array
+                                (
+                                    [0] => 
+                                    [1] => 
+                                )
+
+                            [DISPLAY_VALUE] => Array
+                                (
+                                    [0] => [<a href="/company/personal/user/3/">3</a>] (alina) Алина Гаффарова
+                                    [1] => [<a href="/company/personal/user/1/">1</a>] (gaffarova.alina) Алина Гаффарова
+                                )
+
+                        )
+
+                )
+
+            [IPROPERTY_VALUES] => Array
+                (
+                )
+
+            [SECTION] => 
+        )
+
+    [1] => Array
+        (
+            [ID] => 78
+            [~ID] => 78
+            [IBLOCK_ID] => 8
+            [~IBLOCK_ID] => 8
+            [IBLOCK_SECTION_ID] => 
+            [~IBLOCK_SECTION_ID] => 
+            [NAME] => Алина
+            [~NAME] => Алина
+            [ACTIVE_FROM_X] => 
+            [~ACTIVE_FROM_X] => 
+            [ACTIVE_FROM] => 
+            [~ACTIVE_FROM] => 
+            [TIMESTAMP_X] => 14.12.2024 19:11:38
+            [~TIMESTAMP_X] => 14.12.2024 19:11:38
+            [DETAIL_PAGE_URL] => /servisy/novosti/alina/
+            [~DETAIL_PAGE_URL] => /servisy/novosti/alina/
+            [LIST_PAGE_URL] => /servisy/novosti/
+            [~LIST_PAGE_URL] => /servisy/novosti/
+            [DETAIL_TEXT] => 
+            [~DETAIL_TEXT] => 
+            [DETAIL_TEXT_TYPE] => text
+            [~DETAIL_TEXT_TYPE] => text
+            [PREVIEW_TEXT] => 
+            [~PREVIEW_TEXT] => 
+            [PREVIEW_TEXT_TYPE] => text
+            [~PREVIEW_TEXT_TYPE] => text
+            [PREVIEW_PICTURE] => 
+            [~PREVIEW_PICTURE] => 
+            [LANG_DIR] => /
+            [~LANG_DIR] => /
+            [CODE] => alina
+            [~CODE] => alina
+            [EXTERNAL_ID] => 78
+            [~EXTERNAL_ID] => 78
+            [IBLOCK_TYPE_ID] => news
+            [~IBLOCK_TYPE_ID] => news
+            [IBLOCK_CODE] => news
+            [~IBLOCK_CODE] => news
+            [IBLOCK_EXTERNAL_ID] => 
+            [~IBLOCK_EXTERNAL_ID] => 
+            [LID] => s1
+            [~LID] => s1
+            [EDIT_LINK] => /bitrix/admin/iblock_element_edit.php?IBLOCK_ID=8&type=news&ID=78&lang=ru&force_catalog=&filter_section=0&bxpublic=Y&from_module=iblock&return_url=%2Fservisy%2Fnovosti%2F%3Fbitrix_include_areas%3DY%26clear_cache%3DY
+            [DELETE_LINK] => /bitrix/admin/iblock_element_admin.php?IBLOCK_ID=8&type=news&lang=ru&action=delete&ID=78&return_url=%2Fservisy%2Fnovosti%2F%3Fbitrix_include_areas%3DY%26clear_cache%3DY
+            [DISPLAY_ACTIVE_FROM] => 
+            [FIELDS] => Array
+                (
+                )
+
+            [PROPERTIES] => Array
+                (
+                    [PHOTOGALLERY] => Array
+                        (
+                            [ID] => 21
+                            [IBLOCK_ID] => 8
+                            [NAME] => PHOTOGALLERY
+                            [ACTIVE] => Y
+                            [SORT] => 100
+                            [CODE] => PHOTOGALLERY
+                            [DEFAULT_VALUE] => 
+                            [PROPERTY_TYPE] => E
+                            [ROW_COUNT] => 1
+                            [COL_COUNT] => 30
+                            [LIST_TYPE] => L
+                            [MULTIPLE] => Y
+                            [XML_ID] => 
+                            [FILE_TYPE] => 
+                            [MULTIPLE_CNT] => 5
+                            [LINK_IBLOCK_ID] => 0
+                            [WITH_DESCRIPTION] => N
+                            [SEARCHABLE] => N
+                            [FILTRABLE] => N
+                            [IS_REQUIRED] => N
+                            [VERSION] => 1
+                            [USER_TYPE] => 
+                            [USER_TYPE_SETTINGS] => Array
+                                (
+                                )
+
+                            [HINT] => 
+                            [~NAME] => PHOTOGALLERY
+                            [~DEFAULT_VALUE] => 
+                            [VALUE_ENUM] => 
+                            [VALUE_XML_ID] => 
+                            [VALUE_SORT] => 
+                            [VALUE] => Array
+                                (
+                                    [0] => 1
+                                )
+
+                            [PROPERTY_VALUE_ID] => Array
+                                (
+                                    [0] => 541
+                                )
+
+                            [DESCRIPTION] => Array
+                                (
+                                    [0] => 
+                                )
+
+                            [~VALUE] => Array
+                                (
+                                    [0] => 1
+                                )
+
+                            [~DESCRIPTION] => Array
+                                (
+                                    [0] => 
+                                )
+
+                        )
+
+                    [LIKE] => Array
+                        (
+                            [ID] => 22
+                            [IBLOCK_ID] => 8
+                            [NAME] => LIKE
+                            [ACTIVE] => Y
+                            [SORT] => 200
+                            [CODE] => LIKE
+                            [DEFAULT_VALUE] => 
+                            [PROPERTY_TYPE] => S
+                            [ROW_COUNT] => 1
+                            [COL_COUNT] => 30
+                            [LIST_TYPE] => L
+                            [MULTIPLE] => Y
+                            [XML_ID] => 
+                            [FILE_TYPE] => 
+                            [MULTIPLE_CNT] => 5
+                            [LINK_IBLOCK_ID] => 0
+                            [WITH_DESCRIPTION] => N
+                            [SEARCHABLE] => N
+                            [FILTRABLE] => N
+                            [IS_REQUIRED] => N
+                            [VERSION] => 1
+                            [USER_TYPE] => UserID
+                            [USER_TYPE_SETTINGS] => 
+                            [HINT] => 
+                            [~NAME] => LIKE
+                            [~DEFAULT_VALUE] => 
+                            [VALUE_ENUM] => 
+                            [VALUE_XML_ID] => 
+                            [VALUE_SORT] => 
+                            [VALUE] => Array
+                                (
+                                    [0] => 1
+                                )
+
+                            [PROPERTY_VALUE_ID] => Array
+                                (
+                                    [0] => 542
+                                )
+
+                            [DESCRIPTION] => Array
+                                (
+                                    [0] => 
+                                )
+
+                            [~VALUE] => Array
+                                (
+                                    [0] => 1
+                                )
+
+                            [~DESCRIPTION] => Array
+                                (
+                                    [0] => 
+                                )
+
+                        )
+
+                    [DISLIKE] => Array
+                        (
+                            [ID] => 23
+                            [IBLOCK_ID] => 8
+                            [NAME] => DISLIKE
+                            [ACTIVE] => Y
+                            [SORT] => 200
+                            [CODE] => DISLIKE
+                            [DEFAULT_VALUE] => 
+                            [PROPERTY_TYPE] => S
+                            [ROW_COUNT] => 1
+                            [COL_COUNT] => 30
+                            [LIST_TYPE] => L
+                            [MULTIPLE] => Y
+                            [XML_ID] => 
+                            [FILE_TYPE] => 
+                            [MULTIPLE_CNT] => 5
+                            [LINK_IBLOCK_ID] => 0
+                            [WITH_DESCRIPTION] => N
+                            [SEARCHABLE] => N
+                            [FILTRABLE] => N
+                            [IS_REQUIRED] => N
+                            [VERSION] => 1
+                            [USER_TYPE] => UserID
+                            [USER_TYPE_SETTINGS] => 
+                            [HINT] => 
+                            [~NAME] => DISLIKE
+                            [~DEFAULT_VALUE] => 
+                            [VALUE_ENUM] => 
+                            [VALUE_XML_ID] => 
+                            [VALUE_SORT] => 
+                            [VALUE] => Array
+                                (
+                                    [0] => 1
+                                )
+
+                            [PROPERTY_VALUE_ID] => Array
+                                (
+                                    [0] => 543
+                                )
+
+                            [DESCRIPTION] => Array
+                                (
+                                    [0] => 
+                                )
+
+                            [~VALUE] => Array
+                                (
+                                    [0] => 1
+                                )
+
+                            [~DESCRIPTION] => Array
+                                (
+                                    [0] => 
+                                )
+
+                        )
+
+                )
+
+            [DISPLAY_PROPERTIES] => Array
+                (
+                    [PHOTOGALLERY] => Array
+                        (
+                            [ID] => 21
+                            [IBLOCK_ID] => 8
+                            [NAME] => PHOTOGALLERY
+                            [ACTIVE] => Y
+                            [SORT] => 100
+                            [CODE] => PHOTOGALLERY
+                            [DEFAULT_VALUE] => 
+                            [PROPERTY_TYPE] => E
+                            [ROW_COUNT] => 1
+                            [COL_COUNT] => 30
+                            [LIST_TYPE] => L
+                            [MULTIPLE] => Y
+                            [XML_ID] => 
+                            [FILE_TYPE] => 
+                            [MULTIPLE_CNT] => 5
+                            [LINK_IBLOCK_ID] => 0
+                            [WITH_DESCRIPTION] => N
+                            [SEARCHABLE] => N
+                            [FILTRABLE] => N
+                            [IS_REQUIRED] => N
+                            [VERSION] => 1
+                            [USER_TYPE] => 
+                            [USER_TYPE_SETTINGS] => Array
+                                (
+                                )
+
+                            [HINT] => 
+                            [~NAME] => PHOTOGALLERY
+                            [~DEFAULT_VALUE] => 
+                            [VALUE_ENUM] => 
+                            [VALUE_XML_ID] => 
+                            [VALUE_SORT] => 
+                            [VALUE] => Array
+                                (
+                                    [0] => 1
+                                )
+
+                            [PROPERTY_VALUE_ID] => Array
+                                (
+                                    [0] => 541
+                                )
+
+                            [DESCRIPTION] => Array
+                                (
+                                    [0] => 
+                                )
+
+                            [~VALUE] => Array
+                                (
+                                    [0] => 1
+                                )
+
+                            [~DESCRIPTION] => Array
+                                (
+                                    [0] => 
+                                )
+
+                            [LINK_ELEMENT_VALUE] => Array
+                                (
+                                    [1] => Array
+                                        (
+                                            [ID] => 1
+                                            [~ID] => 1
+                                            [IBLOCK_ID] => 1
+                                            [~IBLOCK_ID] => 1
+                                            [NAME] => Мебельный форум Беларуси
+                                            [~NAME] => Мебельный форум Беларуси
+                                            [DETAIL_PAGE_URL] => /servisy/novosti/Furniture_Forum/
+                                            [~DETAIL_PAGE_URL] => /servisy/novosti/Furniture_Forum/
+                                            [PREVIEW_PICTURE] => 69
+                                            [~PREVIEW_PICTURE] => 69
+                                            [DETAIL_PICTURE] => 
+                                            [~DETAIL_PICTURE] => 
+                                            [SORT] => 500
+                                            [~SORT] => 500
+                                            [LANG_DIR] => /
+                                            [~LANG_DIR] => /
+                                            [CODE] => Furniture_Forum
+                                            [~CODE] => Furniture_Forum
+                                            [EXTERNAL_ID] => 1
+                                            [~EXTERNAL_ID] => 1
+                                            [IBLOCK_SECTION_ID] => 
+                                            [~IBLOCK_SECTION_ID] => 
+                                            [IBLOCK_TYPE_ID] => news
+                                            [~IBLOCK_TYPE_ID] => news
+                                            [IBLOCK_CODE] => furniture_news_s1
+                                            [~IBLOCK_CODE] => furniture_news_s1
+                                            [IBLOCK_EXTERNAL_ID] => furniture_news_s1
+                                            [~IBLOCK_EXTERNAL_ID] => furniture_news_s1
+                                            [LID] => s1
+                                            [~LID] => s1
+                                        )
+
+                                )
+
+                            [DISPLAY_VALUE] => <a href="/servisy/novosti/Furniture_Forum/">Мебельный форум Беларуси</a>
+                        )
+
+                    [DISLIKE] => Array
+                        (
+                            [ID] => 23
+                            [IBLOCK_ID] => 8
+                            [NAME] => DISLIKE
+                            [ACTIVE] => Y
+                            [SORT] => 200
+                            [CODE] => DISLIKE
+                            [DEFAULT_VALUE] => 
+                            [PROPERTY_TYPE] => S
+                            [ROW_COUNT] => 1
+                            [COL_COUNT] => 30
+                            [LIST_TYPE] => L
+                            [MULTIPLE] => Y
+                            [XML_ID] => 
+                            [FILE_TYPE] => 
+                            [MULTIPLE_CNT] => 5
+                            [LINK_IBLOCK_ID] => 0
+                            [WITH_DESCRIPTION] => N
+                            [SEARCHABLE] => N
+                            [FILTRABLE] => N
+                            [IS_REQUIRED] => N
+                            [VERSION] => 1
+                            [USER_TYPE] => UserID
+                            [USER_TYPE_SETTINGS] => 
+                            [HINT] => 
+                            [~NAME] => DISLIKE
+                            [~DEFAULT_VALUE] => 
+                            [VALUE_ENUM] => 
+                            [VALUE_XML_ID] => 
+                            [VALUE_SORT] => 
+                            [VALUE] => Array
+                                (
+                                    [0] => 1
+                                )
+
+                            [PROPERTY_VALUE_ID] => Array
+                                (
+                                    [0] => 543
+                                )
+
+                            [DESCRIPTION] => Array
+                                (
+                                    [0] => 
+                                )
+
+                            [~VALUE] => Array
+                                (
+                                    [0] => 1
+                                )
+
+                            [~DESCRIPTION] => Array
+                                (
+                                    [0] => 
+                                )
+
+                            [DISPLAY_VALUE] => [<a href="/company/personal/user/1/">1</a>] (gaffarova.alina) Алина Гаффарова
+                        )
+
+                    [LIKE] => Array
+                        (
+                            [ID] => 22
+                            [IBLOCK_ID] => 8
+                            [NAME] => LIKE
+                            [ACTIVE] => Y
+                            [SORT] => 200
+                            [CODE] => LIKE
+                            [DEFAULT_VALUE] => 
+                            [PROPERTY_TYPE] => S
+                            [ROW_COUNT] => 1
+                            [COL_COUNT] => 30
+                            [LIST_TYPE] => L
+                            [MULTIPLE] => Y
+                            [XML_ID] => 
+                            [FILE_TYPE] => 
+                            [MULTIPLE_CNT] => 5
+                            [LINK_IBLOCK_ID] => 0
+                            [WITH_DESCRIPTION] => N
+                            [SEARCHABLE] => N
+                            [FILTRABLE] => N
+                            [IS_REQUIRED] => N
+                            [VERSION] => 1
+                            [USER_TYPE] => UserID
+                            [USER_TYPE_SETTINGS] => 
+                            [HINT] => 
+                            [~NAME] => LIKE
+                            [~DEFAULT_VALUE] => 
+                            [VALUE_ENUM] => 
+                            [VALUE_XML_ID] => 
+                            [VALUE_SORT] => 
+                            [VALUE] => Array
+                                (
+                                    [0] => 1
+                                )
+
+                            [PROPERTY_VALUE_ID] => Array
+                                (
+                                    [0] => 542
+                                )
+
+                            [DESCRIPTION] => Array
+                                (
+                                    [0] => 
+                                )
+
+                            [~VALUE] => Array
+                                (
+                                    [0] => 1
+                                )
+
+                            [~DESCRIPTION] => Array
+                                (
+                                    [0] => 
+                                )
+
+                            [DISPLAY_VALUE] => [<a href="/company/personal/user/1/">1</a>] (gaffarova.alina) Алина Гаффарова
+                        )
+
+                )
+
+            [IPROPERTY_VALUES] => Array
+                (
+                )
+
+            [SECTION] => 
+        )
+
+)

@@ -33,11 +33,11 @@
 		"ALLOW_MULTI_SELECT" => "N",
 		"CHILD_MENU_TYPE" => "bottom",
 		"DELAY" => "N",
-		"MAX_LEVEL" => "3",
+		"MAX_LEVEL" => "1",
 		"MENU_CACHE_GET_VARS" => array(
 		),
 		"MENU_CACHE_TIME" => "3600",
-		"MENU_CACHE_TYPE" => "N",
+		"MENU_CACHE_TYPE" => "A",
 		"MENU_CACHE_USE_GROUPS" => "Y",
 		"ROOT_MENU_TYPE" => "top",
 		"USE_EXT" => "N",
@@ -76,7 +76,7 @@
 		"AREA_FILE_SHOW" => "file",
 		"AREA_FILE_SUFFIX" => "inc",
 		"EDIT_TEMPLATE" => "",
-		"PATH" => "/include/copyrlight.php",
+		"PATH" => "/include/copyrlight_one.php",
 		"COMPONENT_TEMPLATE" => ".default"
 	),
 	false

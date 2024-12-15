@@ -1,16 +1,20 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+
 $APPLICATION->SetTitle("Недвижимость");
+
 ?><?$APPLICATION->IncludeComponent(
-	"bitrix:main.include",
-	"",
-	Array(
-		"AREA_FILE_SHOW" => "file",
+	"bitrix:main.include", 
+	"nav", 
+	array(
+		"AREA_FILE_SHOW" => "page",
 		"AREA_FILE_SUFFIX" => "inc",
 		"EDIT_TEMPLATE" => "",
-		"PATH" => "/local/templates/home/obyavleniya/About_Us_ads.php"
-	)
-);?><br>
+		"PATH" => "/local/templates/home/obyavleniya/About_Us_ads.php",
+		"COMPONENT_TEMPLATE" => "nav"
+	),
+	false
+);?></br>
 
 <div class="pt-5">
 	<div class="container">
@@ -94,7 +98,7 @@ $APPLICATION->SetTitle("Недвижимость");
 			</div>
 		</form>
 	</div>
-</div><br>
+</div>
  <?$APPLICATION->IncludeComponent(
 	"bitrix:news", 
 	"ads-page", 
@@ -123,22 +127,26 @@ $APPLICATION->SetTitle("Недвижимость");
 			3 => "DETAIL_TEXT",
 			4 => "DETAIL_PICTURE",
 			5 => "TIMESTAMP_X",
-			6 => "",
+			6 => "LINK_EXTEMAL_RESOURSES",
+			7 => "ADDITIONAL_MATERIALS",
+			8 => "",
 		),
 		"DETAIL_PAGER_SHOW_ALL" => "N",
 		"DETAIL_PAGER_TEMPLATE" => "",
 		"DETAIL_PAGER_TITLE" => "Страница",
 		"DETAIL_PROPERTY_CODE" => array(
-			0 => "LINKS_EXTERNAL_RESOURCES",
+			0 => "TOTAL_AREA",
 			1 => "NUMBER_BATHROOMS",
-			2 => "NUMBER_BEDROOMS",
+			2 => "LINKS_EXTERNAL_RESOURCES",
 			3 => "NUMBER_FLOORS",
-			4 => "PRESENCE_GARAGE",
-			5 => "TOTAL_AREA",
+			4 => "NUMBER_BEDROOMS",
+			5 => "PRESENCE_GARAGE",
 			6 => "PRIORITY_DEAL",
 			7 => "PRICE",
 			8 => "IMAGE_GALLERY",
-			9 => "",
+			9 => "LINK_EXTEMAL_RESOURSES",
+			10 => "ADDITIONAL_MATERIALS",
+			11 => "",
 		),
 		"DETAIL_SET_CANONICAL_URL" => "N",
 		"DISPLAY_BOTTOM_PAGER" => "Y",
@@ -160,21 +168,26 @@ $APPLICATION->SetTitle("Недвижимость");
 			3 => "PREVIEW_PICTURE",
 			4 => "DETAIL_TEXT",
 			5 => "DETAIL_PICTURE",
-			6 => "TIMESTAMP_X",
-			7 => "PROPERTIES_IMAGE_GALLERY",
-			8 => "",
+			6 => "IBLOCK_NAME",
+			7 => "TIMESTAMP_X",
+			8 => "PROPERTIES_IMAGE_GALLERY",
+			9 => "LINK_EXTEMAL_RESOURSES",
+			10 => "ADDITIONAL_MATERIALS",
+			11 => "",
 		),
 		"LIST_PROPERTY_CODE" => array(
-			0 => "LINKS_EXTERNAL_RESOURCES",
+			0 => "TOTAL_AREA",
 			1 => "NUMBER_BATHROOMS",
-			2 => "NUMBER_BEDROOMS",
+			2 => "LINKS_EXTERNAL_RESOURCES",
 			3 => "NUMBER_FLOORS",
-			4 => "PRESENCE_GARAGE",
-			5 => "TOTAL_AREA",
+			4 => "NUMBER_BEDROOMS",
+			5 => "PRESENCE_GARAGE",
 			6 => "PRIORITY_DEAL",
 			7 => "PRICE",
 			8 => "PROPERTIES_IMAGE_GALLERY",
-			9 => "",
+			9 => "LINK_EXTEMAL_RESOURSES",
+			10 => "ADDITIONAL_MATERIALS",
+			11 => "",
 		),
 		"MEDIA_PROPERTY" => "",
 		"MESSAGE_404" => "",
@@ -210,6 +223,7 @@ $APPLICATION->SetTitle("Недвижимость");
 		"USE_RSS" => "N",
 		"USE_SEARCH" => "N",
 		"USE_SHARE" => "N",
+		"DISPLAY_SET_TITLE" => "Объявления",
 		"SEF_URL_TEMPLATES" => array(
 			"news" => "",
 			"section" => "",
@@ -217,4 +231,5 @@ $APPLICATION->SetTitle("Недвижимость");
 		)
 	),
 	false
-);?><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+);?>
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

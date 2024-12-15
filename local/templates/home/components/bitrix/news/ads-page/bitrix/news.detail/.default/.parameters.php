@@ -78,6 +78,11 @@ if ($arCurrentValues["USE_SHARE"] == "Y")
 		"TYPE" => "STRING",
 		"DEFAULT" => "",
 	);
+	$arTemplateParameter["DISPLAY_SET_TITLE"] = array(
+		"NAME" => GetMessage("T_IBLOCK_DESC_NEWS_TITLE"),
+		"TYPE" => "TEXT",
+		"DEFAULT" => "Y",
+	);
 }
 
 ?>

@@ -1,10 +1,10 @@
 <?
-$MESS ['nav_of'] = "из";
-$MESS ['nav_begin'] = "Начало";
-$MESS ['nav_prev'] = "Пред.";
-$MESS ['nav_next'] = "След.";
-$MESS ['nav_end'] = "Конец";
-$MESS ['nav_paged'] = "По стр.";
-$MESS ['nav_all'] = "Все";
+$MESS ['nav_of'] = "1";
+$MESS ['nav_begin'] = "2";
+$MESS ['nav_prev'] = "3.";
+$MESS ['nav_next'] = "4.";
+$MESS ['nav_end'] = "5";
+$MESS ['nav_paged'] = "6";
+$MESS ['nav_all'] = "7";
 $MESS ['nav_to'] = "-";
 ?>

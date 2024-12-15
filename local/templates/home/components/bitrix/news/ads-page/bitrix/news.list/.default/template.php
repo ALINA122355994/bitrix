@@ -1,30 +1,22 @@
 <?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
-/** @var array $arParams */
-/** @var array $arResult */
-/** @global CMain $APPLICATION */
-/** @global CUser $USER */
-/** @global CDatabase $DB */
-/** @var CBitrixComponentTemplate $this */
-/** @var string $templateName */
-/** @var string $templateFile */
-/** @var string $templateFolder */
-/** @var string $componentPath */
-/** @var CBitrixComponent $component */
+
 $this->setFrameMode(true);
-// echo '<pre>';
-// print_r($arResult);
-// echo '</pre>';
+
 ?>
 
           
         
+
 <div class="site-section site-section-sm bg-light">
-	<div class="container">
-		<div class="row mb-5">
-			<div class="col-12">
-            <div class="site-section-title">
-              <h2>New Properties for You</h2>
+<div class="container">
+	<div class="row mb-5">
+		<div class="col-12">
+			<div class="site-section-title">
+
+			<h2><?=$arParams['DISPLAY_SET_TITLE'];?></h2>
+         
             </div>
+			
           </div>
 		</div>
 		<div class="row mb-5">
@@ -46,38 +38,37 @@ $this->setFrameMode(true);
 						</div>
 						<div class="prop-more-info">
 						<div class="inner d-flex">
-										<div class="col">
-										<?=GetMessage('AREA')?> <?=$arItem["PROPERTY_TOTAL_AREA_VALUE"]?>
-										</div>
-										<div class="col">
-										<?=GetMessage('BEDS')?> <?=$arItem["PROPERTY_NUMBER_BEDROOMS_VALUE"]?>
-										</div>
-										<div class="col">
-										<?=GetMessage('BATHS')?> <?=$arItem["PROPERTY_NUMBER_BATHROOMS_VALUE"]?>
-										</div>
-										<div class="col">
-										<?=GetMessage('GARAGES')?> <?if($arItem["PROPERTY_PRESENCE_GARAGE_VALUE"]):?>
-											<?=$arItem['PROPERTY_PRESENCE_GARAGE_VALUE']?>			
-										<?else:?>
-										Нет
-										<?endif;?>
-																				</div>
+						<div class="col">
+									<?=GetMessage('AREA')?></br><?=$arItem['DISPLAY_PROPERTIES']["TOTAL_AREA"]["VALUE"]?>
+									</div>
+									<div class="col">
+									<?=GetMessage('BEDS')?></br><?=$arItem['DISPLAY_PROPERTIES']['NUMBER_BEDROOMS']['VALUE']?>
+									</div>
+									<div class="col">
+									<?=GetMessage('BATHS')?></br> <?=$arItem['DISPLAY_PROPERTIES']['NUMBER_BATHROOMS']['VALUE']?>
+									</div>
+									<div class="col">
+									<?=GetMessage('GARAGES')?></br><?if($arItem['DISPLAY_PROPERTIES']['PRESENCE_GARAGE']['VALUE']):?>
+									<?=$arItem['PROPERTIES']['PRESENCE_GARAGE']['VALUE']?>			
+									<?else:?>
+									Нет
+									<?endif;?>										
+									</div>
 
 						</div>
 						</div>
-					</div>
+						</div>
  					</a>
 				</div>
 			<?endforeach;?>
 			
-			
-		</div>
-		
-		<div class="col-md-12 text-center">
-            
+							
 			<?if($arParams["DISPLAY_BOTTOM_PAGER"]):?>
-	<br /><?=$arResult["NAV_STRING"]?>
-<?endif;?>
-          </div>  
+			
+			<?=$arResult["NAV_STRING"]?>
+			<?endif;?>	
 	</div>
-</div>
+	</div>
+			</div>  
+			</div>
+	

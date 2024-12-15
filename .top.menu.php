@@ -23,7 +23,7 @@ $aMenuLinks = Array(
 	),
 	Array(
 		"ЛК покупателя", 
-		"/lichnyy-kabinet-pokupatelya/", 
+		"/lichnyy-kabinet-pokupatelya/index.php", 
 		Array(), 
 		Array(), 
 		"" 
@@ -36,8 +36,8 @@ $aMenuLinks = Array(
 		"" 
 	),
 	Array(
-		"новости.мс", 
-		"/novosti-ms1.php", 
+		"ВОЙТИ", 
+		"/login/index.php", 
 		Array(), 
 		Array(), 
 		"" 

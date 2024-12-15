@@ -2,7 +2,8 @@
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Недвижимость");
 ?><br>
- <?$GLOBALS['arrFilter'] = array('PROPERTY_PRIORITY_DEAL_VALUE' => 'Да');?> <?$APPLICATION->IncludeComponent(
+ <?$GLOBALS['arrFilter'] = array('PROPERTY_PRIORITY_DEAL_VALUE' => 'Да');?> 
+ <?$APPLICATION->IncludeComponent(
 	"bitrix:news.list",
 	"slaider",
 	Array(
@@ -108,72 +109,102 @@ $APPLICATION->SetTitle("Недвижимость");
 		</div>
 	</div>
 </div>
-<div class="site-section site-section-sm bg-light">
-	<div class="container">
-		<div class="row mb-5">
-			<div class="col-12">
-				<div class="site-section-title">
-					<h2>New Properties for You</h2>
-					 <?$APPLICATION->IncludeComponent(
-	"bitrix:news.line",
-	"New_Properties_You",
-	Array(
+</div>
+					
+				</br> <?$APPLICATION->IncludeComponent(
+	"bitrix:news.line", 
+	"New_Properties_You", 
+	array(
 		"ACTIVE_DATE_FORMAT" => "d.m.Y",
-		"CACHE_GROUPS" => "Y",
+		"CACHE_GROUPS" => "N",
 		"CACHE_TIME" => "172800",
 		"CACHE_TYPE" => "A",
 		"COMPONENT_TEMPLATE" => "New_Properties_You",
-		"DETAIL_URL" => "/#SITE_DIR#/news/#ELEMENT_CODE#",
-		"FIELD_CODE" => array(0=>"PREVIEW_TEXT",1=>"PREVIEW_PICTURE",2=>"DETAIL_TEXT",3=>"DETAIL_PICTURE",4=>"PROPERTY_PRICE",5=>"PROPERTY_NUMBER_BEDROOMS",6=>"PROPERTY_NUMBER_BATHROOMS",7=>"PROPERTY_TOTAL_AREA",8=>"PROPERTY_PRESENCE_GARAGE",9=>"PROPERTY_IMAGE_GALLERY",10=>"",),
-		"IBLOCKS" => array(0=>"5",),
+		"DETAIL_URL" => "#SITE_DIR#/obyavleniya/#CODE#/",
+		"FIELD_CODE" => array(
+			0 => "NAME",
+			1 => "PREVIEW_TEXT",
+			2 => "PREVIEW_PICTURE",
+			3 => "DETAIL_TEXT",
+			4 => "DETAIL_PICTURE",
+			5 => "IBLOCK_TYPE_ID",
+			6 => "IBLOCK_CODE",
+			7 => "IBLOCK_NAME",
+			8 => "PROPERTY_PRICE",
+			9 => "PROPERTY_NUMBER_BEDROOMS",
+			10 => "PROPERTY_NUMBER_BATHROOMS",
+			11 => "PROPERTY_TOTAL_AREA",
+			12 => "PROPERTY_PRESENCE_GARAGE",
+			13 => "PROPERTY_IMAGE_GALLERY",
+			14 => "PROPERTY_ADDITIONAL_MATERIALS",
+			15 => "",
+		),
+		"IBLOCKS" => array(
+			0 => "5",
+		),
 		"IBLOCK_TYPE" => "advertisement",
 		"NEWS_COUNT" => "9",
-		"SORT_BY1" => "SORT",
-		"SORT_BY2" => "SORT",
-		"SORT_ORDER1" => "DESC",
-		"SORT_ORDER2" => "ASC"
-	)
-);?><br>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+		"SORT_BY1" => "TIMESTAMP_X",
+		"SORT_BY2" => "",
+		"SORT_ORDER1" => "",
+		"SORT_ORDER2" => ""
+	),
+	false
+);?>
+
+
  <?$APPLICATION->IncludeComponent(
-	"bitrix:news.line",
-	"Our_Services",
-	Array(
+	"bitrix:news.line", 
+	"Our_Services", 
+	array(
 		"ACTIVE_DATE_FORMAT" => "d.m.Y",
 		"CACHE_GROUPS" => "Y",
 		"CACHE_TIME" => "7776000",
 		"CACHE_TYPE" => "A",
 		"COMPONENT_TEMPLATE" => "Our_Services",
 		"DETAIL_URL" => "",
-		"FIELD_CODE" => array(0=>"PREVIEW_TEXT",1=>"PROPERTY_NAME",2=>"PROPERTY_TEXT",3=>"PROPERTY_LINK",4=>"",),
-		"IBLOCKS" => array(0=>"6",),
+		"FIELD_CODE" => array(
+			0 => "PREVIEW_TEXT",
+			1 => "PROPERTY_NAME",
+			2 => "PROPERTY_TEXT",
+			3 => "PROPERTY_LINK",
+			4 => "",
+		),
+		"IBLOCKS" => array(
+			0 => "6",
+		),
 		"IBLOCK_TYPE" => "Services",
 		"NEWS_COUNT" => "6",
 		"SORT_BY1" => "ACTIVE_FROM",
 		"SORT_BY2" => "SORT",
 		"SORT_ORDER1" => "DESC",
 		"SORT_ORDER2" => "ASC"
-	)
+	),
+	false
 );?> <?$APPLICATION->IncludeComponent(
-	"bitrix:news.line",
-	"Footer_News",
-	Array(
+	"bitrix:news.line", 
+	"Footer_News", 
+	array(
 		"ACTIVE_DATE_FORMAT" => "d.m.Y",
 		"CACHE_GROUPS" => "Y",
 		"CACHE_TIME" => "604800",
 		"CACHE_TYPE" => "A",
-		"DETAIL_URL" => "",
-		"FIELD_CODE" => array("PREVIEW_TEXT","PREVIEW_PICTURE",""),
-		"IBLOCKS" => array("1"),
+		"DETAIL_URL" => "#SITE_DIR#/servisy/novosti/#ELEMENT_CODE#/",
+		"FIELD_CODE" => array(
+			0 => "PREVIEW_TEXT",
+			1 => "PREVIEW_PICTURE",
+			2 => "",
+		),
+		"IBLOCKS" => array(
+			0 => "1",
+		),
 		"IBLOCK_TYPE" => "news",
 		"NEWS_COUNT" => "3",
 		"SORT_BY1" => "TIMESTAMP_X",
 		"SORT_BY2" => "SORT",
 		"SORT_ORDER1" => "DESC",
-		"SORT_ORDER2" => "ASC"
-	)
+		"SORT_ORDER2" => "ASC",
+		"COMPONENT_TEMPLATE" => "Footer_News"
+	),
+	false
 );?> <br><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

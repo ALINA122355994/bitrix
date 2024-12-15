@@ -1,17 +1,5 @@
-<?if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
-// echo '<pre>';
-// print_r($arResult);
-// echo '</pre>';
-?>
-
-
-	
+<?if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
 <?if (!empty($arResult)):?>
-	<?$this->AddEditAction($arItem['ID'], $arItem['EDIT_LINK'], CIBlock::GetArrayByID($arItem["IBLOCK_ID"], "ELEMENT_EDIT"));
-$this->AddDeleteAction($arItem['ID'], $arItem['DELETE_LINK'], CIBlock::GetArrayByID($arItem["IBLOCK_ID"], "ELEMENT_DELETE"), array("CONFIRM" => GetMessage('CT_BNL_ELEMENT_DELETE_CONFIRM')));
-      ?>
-	
-
 <div class="col-4 col-md-4 col-lg-8" id="<?=$this->GetEditAreaId($arItem['ID']);?>">
      <nav class="site-navigation text-right text-md-right" role="navigation">
 
@@ -47,7 +35,7 @@ $this->AddDeleteAction($arItem['ID'], $arItem['DELETE_LINK'], CIBlock::GetArrayB
 
 <?endforeach?>
 
-<?if ($previousLevel > 1)://close last item tags?>
+<?if ($previousLevel > 1):?>
 	<?=str_repeat("</ul></li>", ($previousLevel-1) );?>
 <?endif?>
 

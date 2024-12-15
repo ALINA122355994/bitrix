@@ -11,9 +11,6 @@
 /** @var string $componentPath */
 /** @var CBitrixComponent $component */
 $this->setFrameMode(true);
-// echo '<pre>';
-// print_r($arResult);
-// echo '</pre>';
 ?>
 
 <div class="slide-one-item home-slider owl-carousel">

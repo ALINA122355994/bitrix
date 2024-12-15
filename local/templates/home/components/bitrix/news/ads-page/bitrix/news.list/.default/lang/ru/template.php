@@ -1,8 +1,8 @@
 <?
 $MESS["CT_BNL_ELEMENT_DELETE_CONFIRM"] = "Будет удалена вся информация, связанная с этой записью. Продолжить?";
- $MESS["AREA"] = "Общая площадь";
- $MESS["GARAGES"] = "Наличие гаража";
- $MESS["BEDS"] = "Количество спален";
- $MESS["BATHS"] = "Количество санузлов";
- $MESS["PREVIEW_TEXT"] = "Адрес";
+$MESS["AREA"] = "Площадь";
+$MESS["GARAGES"] = "Гараж";
+$MESS["BEDS"] = "Спальни";
+$MESS["BATHS"] = "Санузел";
+$MESS["PREVIEW_TEXT"] = "Адрес";
  ?>

@@ -1,4 +1,5 @@
 <?
+$PERM["desktop_app"]["*"]="D";
 $PERM["lichnyy-kabinet-pokupatelya"]["2"]="D";
 $PERM["lichnyy-kabinet-pokupatelya"]["10"]="W";
 $PERM["lichnyy-kabinet-pokupatelya"]["8"]="X";
